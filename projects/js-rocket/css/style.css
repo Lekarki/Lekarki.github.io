@@ -1,0 +1,15 @@
+body {
+    background-color: aquamarine;
+}
+.cool {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    transition: background-color 2ms;
+    visibility: hidden;
+}
+.cool.red {
+    visibility: visible;
+    background-color: pink;
+    transition: background-color 3s;
+}
