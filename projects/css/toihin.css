@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    text-align: center;
+    color:blanchedalmond;
+    font-size: 40px;
+}
+.buttons {
+    background-color: #7b4ca9; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    /*add custom cursor*/
+    cursor: pointer;
+    
+}
+.buttonjoo {padding: 15px 22px}
+.buttonei {}
+.buttonReset {
+    background-color: #777777; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    /*add custom cursor*/
+    cursor: pointer;
+}

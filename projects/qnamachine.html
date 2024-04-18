@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-
-//set desired outcome for button1
-    function button1() {
-
-        blank.innerHTML = "mene "
-    };
-//set desired outcome for button2
-    function button2() {
-
-        blank.innerHTML = "hyvä "
-    };
-    </script>
-
+    <script type="text/javascript" src=""></script>
+    <link rel="stylesheet" type="text/css" href="css/toihin.css">
 </head>
 <body>
   <h1>Töihin?</h1>
         
     
-        <button onclick="button1()">ei</button>
-        <button onclick="button2()">joo</button>
+        <button onclick="button1()"><span class="buttons buttonei">EI</span></button>
+        <button onclick="button2()"><span class="buttons buttonjoo">JOO</span></button>
 
         <h2 id="notor">Waiting for input</h2>
 
+        <button onclick="buttonReset()"><span class="buttonReset">reset</span></button>
+
     <script>
         var blank = document.getElementById("notor");
+        //set desired outcome for button1
+        
+        function button1() {
+            blank.innerHTML = "mene "
+        };
+        //set desired outcome for button2
+        function button2() {
+            blank.innerHTML = "hyvä "
+        };
+        //set desired outcome for resetbutton
+        function buttonReset() {
+            blank.innerHTML = "Waiting for input"
+        }
+      
+
+       
         
     </script>
 
