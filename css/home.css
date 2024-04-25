@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.light {
+    background-color: rgb(244, 244, 244);
+    
+
+}
+.section {
+    padding: 15px 15px 30px 15px;
+    
+}
+.section.light {
+    text-align: center;
+}
+.heading1 {
+
+}
+#projectsBtn {
+
+    background-color: #00000050;
+    font-family: 'Courier New', Courier, monospace;
+    
+    border: 3px;
+    border-color:black ;
+    border-radius: 4px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    /*add custom cursor*/
+    cursor: pointer;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex:50%;
+    padding: 10px
+}
+.responsive {
+    width: 100%;
+    max-width:100px;
+    height: auto;
+}
+.row2 {
+    display: flex;
+}
+.column2 {
+    flex:10%;
+    padding: 10px
+}
