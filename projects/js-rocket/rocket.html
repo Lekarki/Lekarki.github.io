@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spagettiRaketti</title>
+
+    <link rel="stylesheet" type="text/css" href="css/rocket.css">
+
+
+
+</head>
+<body>
+
+<!--VASENPUOLI-->
+    <div class="left">
+        <div class="state1">
+            <h1>Raketi laukaise!</h1>
+            <a href="#" class="button" onclick="jysays()";>Jysäy!</a>
+        </div>
+    </div>
+
+<!--OIKEAPUOLI-->    
+    <div class="right">
+        <div class="ground"></div>
+        <div class="rocket" id="raketti"></div>
+    </div>
+
+<script>
+
+var raketti = document.getElementById('raketti');
+
+function jysays() {
+    raketti.className = ('rocket flying')
+        
+};
+
+
+</script>
+</body>
+</html>
