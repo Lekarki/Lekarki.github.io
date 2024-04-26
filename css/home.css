@@ -54,3 +54,27 @@ body {
     flex:10%;
     padding: 10px
 }
+
+a.hiddenLink:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.hiddenLink:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.hiddenLink:hover {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a.hiddenLink:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
