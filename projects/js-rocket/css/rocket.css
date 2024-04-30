@@ -6,7 +6,8 @@ font-family: 'Courier New', Courier, monospace;
 
 
 .left { 
-   background-color: rgb(255, 194, 204);
+   /* background-color: rgb(255, 194, 204); */
+   background: url('../img/spacebggif.gif');
    padding-top: 300px;
     text-align: center;
     position: fixed;
@@ -16,10 +17,33 @@ font-family: 'Courier New', Courier, monospace;
     left: 0;
 }
 
+.containerbox{
+    background-color: pink;
+    
+    
+    border: 3px;
+    
+    border-radius: 4px;
+    
+    color: rgb(23, 23, 23);
+    padding: 15px 32px;
+    width: 300px;
+    height: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    /*add custom cursor*/
+    cursor: pointer;
+}
+
 .right {
     background: url('../img/spacebggif.gif');
+    border-left: solid pink;
     position: fixed;
     width: 50%;
+
     height: 100%;
     top: 0;
     right: 0;
