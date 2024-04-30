@@ -17,8 +17,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 .right {
-    background-color: rgb(181, 255, 245);
-   
+    background: url('../img/spacebggif.gif');
     position: fixed;
     width: 50%;
     height: 100%;
@@ -30,11 +29,11 @@ font-family: 'Courier New', Courier, monospace;
     position:absolute;
     bottom: 0;
     left: 0;
+    height: 70px;
     width: 100%;
-    height: 35px;
-    background-color: rgb(103, 251, 165);
-  
-    border: solid;
+    background: url('../img/background.png');
+    background-size: contain;
+    border: none;
     border-color: rgb(68, 216, 130);
     
 
@@ -46,12 +45,64 @@ font-family: 'Courier New', Courier, monospace;
     position:absolute;
     left: 50%;
     bottom: 22px;
-    width: 22px;
-    height: 100px;
-    background-color: rgb(75, 75, 75);
-    transition: bottom 4000ms
+    width: 170px;
+    height: 240px;
+    margin-left: -34px;
+    
+    /* background-color: rgb(75, 75, 75); */
+    background: url('../img/rocket-state1.png') no-repeat;
+    background-size: contain;
+    transition: bottom 6000ms
 
 }
+/* rocket bg image in different states */
+
+body.body-state2 .rocket{
+    position:absolute;
+    left: 50%;
+    bottom: 22px;
+    width: 170px;
+    height: 240px;
+    margin-left: -43px;
+    
+    /* background-color: rgb(75, 75, 75); */
+    background: url('../img/rocket-state2.png') no-repeat;
+    background-size: contain;
+}
+body.body-state3 .rocket,
+body.body-state4 .rocket{
+    position:absolute;
+    left: 50%;
+    bottom: 22px;
+    width: 170px;
+    height: 240px;
+    margin-left: -43px;
+    
+    /* background-color: rgb(75, 75, 75); */
+    background: url('../img/rocket-state3.png') no-repeat;
+    background-size: contain;
+    
+}
+body.body-state5 .rocket{
+    position:absolute;
+    left: 50%;
+    bottom: 22px;
+    width: 320px;
+    height: 400px;
+    margin-left: -150px;
+    
+    /* background-color: rgb(75, 75, 75); */
+    background: url('../img/rocket-stateboom.png') no-repeat;
+    background-size: contain;
+    
+}
+
+
+
+
+
+
+
 body.body-state1 .rocket{
     transition: none;
 }

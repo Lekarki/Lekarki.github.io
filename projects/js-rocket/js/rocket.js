@@ -15,7 +15,7 @@ var changeState = function (state) {
             if (countdownNumber <= 0) {
                 changeState(3);
             };
-        }, 300);
+        }, 400);
     } else if (state == 3) {
         var success = setTimeout(function() 
             {
@@ -30,7 +30,7 @@ var changeState = function (state) {
                 } else {
                     changeState(5); // ohno!
                 }
-        }, 1500);
+        }, 1000);
 
     };
 
