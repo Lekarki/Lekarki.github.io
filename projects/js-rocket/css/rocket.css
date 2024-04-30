@@ -35,7 +35,7 @@ font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     margin: 4px 2px;
     /*add custom cursor*/
-    cursor: pointer;
+    
 }
 
 .right {
@@ -62,8 +62,21 @@ font-family: 'Courier New', Courier, monospace;
 
 }
 
+.nervous {
+    position:absolute;
+    bottom: 100px;
+    left: 50%;
+    background: url('../img/nervous.png') no-repeat 0 0;
+    background-size: contain;
+    width: 220px;
+    height: 220px;
+    margin-left: -150px;
+    display: none;
 
-
+}
+.nervous.show {
+    display: block;
+}
 .rocket {
     position:absolute;
     left: 50%;

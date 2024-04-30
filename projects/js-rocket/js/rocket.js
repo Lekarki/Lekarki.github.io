@@ -12,6 +12,12 @@ var changeState = function (state) {
             document.getElementById("countdown").innerHTML = countdownNumber;
             countdownNumber = countdownNumber -1;
 
+            if (countdownNumber > 1 && countdownNumber < 8) {
+                //be nervöös
+                document.getElementById("nervous").className = "nervous show";
+
+            } else document.getElementById("nervous").className = "nervous";
+
             if (countdownNumber <= 0) {
                 changeState(3);
             };
