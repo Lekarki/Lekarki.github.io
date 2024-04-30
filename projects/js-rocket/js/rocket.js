@@ -30,7 +30,7 @@ var changeState = function (state) {
                 } else {
                     changeState(5); // ohno!
                 }
-        }, 1000);
+        }, 1200);
 
     };
 
