@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+
+}
+
+.boxybox{
+    font-size: 5vmin;
+    padding: 10px;
+    position:relative;
+}
+
+.textbubble {
+    margin: 0vmin 60vmin;
+}
