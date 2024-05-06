@@ -16,7 +16,7 @@ font-family: 'Courier New', Courier, monospace;
     top: 0;
     left: 0;
 }
-
+/* Left side container */
 .containerbox{
     background-color: pink;
     
@@ -34,10 +34,9 @@ font-family: 'Courier New', Courier, monospace;
     display: inline-block;
     font-size: 18px;
     margin: 4px 2px;
-    /*add custom cursor*/
     
 }
-
+/* Background */
 .right {
     background: url('../img/spacebggif.gif');
     border-left: none;
@@ -147,6 +146,7 @@ body.body-state3 .rocket,
 body.body-state4 .rocket {
     bottom: 1000px;
 }
+
 a.button {
     background-color: #00000050;
     font-family: 'Courier New', Courier, monospace;
