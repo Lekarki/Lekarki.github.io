@@ -6,7 +6,14 @@ body {
     place-items: center;
 
 }
-.card-group,
+.card-group {
+    background-color: rgba(255, 255, 255, 0);
+    aspect-ratio: 1 / 1;
+    width: 20vmin;
+}
+
+
+
 .card-big {
     aspect-ratio: 1 / 1;
     width: 20vmin;
@@ -16,6 +23,7 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
     border-radius: 1.2vmin;
+    box-shadow: 2vmin 2vmin 5vmin rgba(255, 255, 255, 0.1) inset;
     transition: transform 300ms cubic-bezier(.69,.31,.9,.37);
 }
 
