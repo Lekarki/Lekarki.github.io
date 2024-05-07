@@ -6,35 +6,43 @@
     <title>me</title>
     <link rel="icon" type="image/x-icon" href="img/icons/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script type="text/javascript" src="js/home.js"></script>
 </head>
 <body>
-    <div class="card-group">
+    <div class="container1">
+        <div class="card-group" id="cardStack">
 
-        <div class="card-big">
-            <a href="#">
-                <button class="Btn1">Other</button>
-            </a>
+            <div class="card-big">
+                <a href="#">
+                    <button class="Btn1">Other</button>
+                </a>
+            </div>
+            
+            <div class="card-big">
+                <a href="./pages/contact/contact.html">
+                    <button class="Btn1">Contact</button>
+                </a>
+            </div>
+            
+            <div class="card-big">
+                <a href="projects/projects.html">
+                    <button class="Btn1">Projects</button>
+                </a>
+            </div>
+            
+            <div class="card-big">
+                <a href="./pages/aboutme/aboutme.html">
+                    <button class="Btn1">About</button>
+                </a>
+            </div>
         </div>
-        
-        <div class="card-big">
-            <a href="./pages/contact/contact.html">
-                <button class="Btn1">Contact</button>
-            </a>
+        <div class="openstack">
+            <button id="openstack button" onclick="openTheStack()">
+                open
+            </button>
         </div>
-        
-        <div class="card-big">
-            <a href="projects/projects.html">
-                <button class="Btn1">Projects</button>
-            </a>
-        </div>
-        
-        <div class="card-big">
-            <a href="./pages/aboutme/aboutme.html">
-                <button class="Btn1">About</button>
-            </a>
-        </div>
-    
     </div>
+    
 </body>
 </body>
 </html>
