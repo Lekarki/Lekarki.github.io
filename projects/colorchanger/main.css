@@ -1,0 +1,44 @@
+
+
+body {
+    background-color: white;
+    transition: 1000ms;
+    
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.container {
+    width: auto;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* grid-template-columns: auto auto auto auto; */
+    
+    /* background-color: rgba(0, 255, 0, 0.5); */
+}
+.button {
+    width: auto;
+    height: 40px;
+    padding: 10px 20px;
+    /* background-color: rgba(255, 0, 0, 0.3); */
+}
+
+button {
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+#red {
+    background-color: red;
+}
+#green {
+    background-color: green;
+}
+#blue {
+    background-color: blue;
+}
