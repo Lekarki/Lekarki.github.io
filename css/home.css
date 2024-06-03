@@ -2,16 +2,46 @@ body {
     background-color: black;
     margin: 0px;
     height: 100vh;
-    display: grid;
-    place-items: center;
-
 }
-
-.openstack {
-    margin-top: 150px;
+.text1 {
+    color: white;
+}
+.flexboxmain {
+    height: 100%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+    border: solid rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+    /* background-color:rgba(255, 255, 255, 0.3); */
+    align-items: center;
+    padding: 16px 24px 0px 32px;
+}
+.avatar {
+    border: solid rgba(255, 255, 255, 0.5);
+    
+    border-radius: 5px;
+    background-image:linear-gradient(black, black), url("https://images.unsplash.com/photo-1605559911160-a3d95d213904?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-blend-mode: hue;
+    height: 30vmin;
+    width: 20vmin;
+    margin-top: 120px;
+}
+.rightside {
+    display: flex;
+    flex-basis: 65%;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .card-group,
 .card-big {
@@ -57,21 +87,16 @@ body {
     transform: translateX(60%)translateY(-60%)rotate(-360deg);
 }
 
-
-.card-group.active > .card-big:nth-child(1) {
-    transform: translateX(-60%)translateY(-60%)rotate(360deg);
+.card-group:hover {
+    display: flex;
+    flex: 0 0 auto;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    aspect-ratio: 1 / 1;
+    width: 44vmin;
+    justify-content: center;
+    align-items: center;
+    
 }
-.card-group.active > .card-big:nth-child(2) {
-    transform: translateX(60%)translateY(60%)rotate(-360deg);
-}
-.card-group.active > .card-big:nth-child(3) {
-    transform: translateX(-60%)translateY(60%)rotate(360deg);
-}
-.card-group.active > .card-big:nth-child(4) {
-    transform: translateX(60%)translateY(-60%)rotate(-360deg);
-}
-
-
 
 
 .Btn1 {
